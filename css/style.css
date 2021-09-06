@@ -283,7 +283,6 @@ foreignObject{
 
 .how-to__box g:hover text{
     font-size: 36px;
-    line-height: 43px;
     fill: #036CCA;
 }
 
@@ -293,6 +292,32 @@ foreignObject{
 
 .how-to__box g:hover foreignObject{
     font-size: 22px;
-    line-height: 43px;
     color: #036CCA;
+}
+
+/* ----------------- TO BOOK -----------------*/
+
+.to-book {
+    background-image: url(../images/to-book-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vh;
+}
+.to-book__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.to-book__text {
+    width: 150px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 52px;
+}
+
+.to-book__text + .to-book__text{
+    margin-right: 0;
+    margin-left: 0; 
 }
